@@ -1,0 +1,25 @@
+<h2>All Celebrities</h2>
+
+{{!- - - - - - - - - - - - - - - - - - - - - - LOOP THROUGH DATA & PRINT }}
+  {{#each celebrityList}}
+   <ul>
+   <li><a href="/celebrities/show/{{_id}}"> {{ name }} </a></li>
+   </ul>
+
+{{!- - - - - - - - - - - - - - - - - - - - - - - - - - - - DELETE BUTTON }}
+   <form method="POST" action="/celebrities/{{_id}}/delete">
+   <button>Delete Celebrity</button>
+   </form>
+
+{{!- - - - - - - - - - - - - - - - - - - - - - - - - - - - EDIT BUTTON }}
+   <form method="GET" action="celebrities/show/{{_id}}/edit">
+   <button>Edit Celebrity</button>
+   </form>
+  {{/each}}
+
+{{!- - - - - - - - - - - - - - - - - - - - - - - - - - - - CREATE BUTTON }}
+  <a href="/celebrities/create"> Create A Celebrity</a>
+
+{{!- - - - - - - - - - - - - - - - - - - - - - - - - - - - HOME BUTTON }}
+  <a href="/">Home</a>
+

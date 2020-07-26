@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Shawshank Redemption",
+    "genre": "Drama",
+    "plot": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency."
+  },
+  {
+    "title": "Fight Club",
+    "genre": "Drama",
+    "plot": "An insomniac office worker and a devil-may-care soapmaker form an underground fight club that evolves into something much, much more."
+  },
+  {
+    "title": "Inception",
+    "genre": "Action, Adventure, Sci-Fi",
+    "plot": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O."
+  }
+]
